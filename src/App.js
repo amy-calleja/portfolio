@@ -12,7 +12,6 @@ function App() {
       <header className="App-header">
         
        <Hero />
-        <Button variant="primary">Primary</Button>
      
       </header>
 

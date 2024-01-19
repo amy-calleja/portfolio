@@ -8,11 +8,12 @@ export default function NavMenu() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#">AMY CALLEJA</Navbar.Brand>
+          <Navbar.Brand href="#"></Navbar.Brand>
           <Nav className="p-2 justify-content-end">
-            <Nav.Link className="mx-3" href="#about">About</Nav.Link>
-            <Nav.Link className="mx-3" href="#projects">Projects</Nav.Link>
-            <Nav.Link className="mx-3" href="#contact">Contact</Nav.Link>
+          <p className='comment m-2'>// </p>
+            <Nav.Link className="mx-3 comment" href="#about">About<span className='comment'>{'()'}</span></Nav.Link>
+            <Nav.Link className="mx-3 comment" href="#projects">Projects<span className='comment'>{'()'}</span></Nav.Link>
+            <Nav.Link className="mx-3 comment" href="#contact">Contact<span className='comment'>{'()'}</span></Nav.Link>
           </Nav>
         </Container>
       </Navbar>

@@ -1,38 +1,107 @@
+:root {
+  --purple: #bd93f9;
+  --pink: #ff79c6;
+  --background: #282a36;
+  --current-color: #44475a;
+  --light-color: #f8f8f2;
+  --comment-color: #6272a4;
+  --green: #50fa7b;
+  --light-blue: #8be9fd;
+  --yellow: #f1fa8c;
+  --orange: #ffb86c;
+  --red: #ff5555;
+}
+
+.App .hero {
+  text-align: start;
+  font-size: 19px;
+}
+
+.App .title-name{
+  font-size: 73px;
+  letter-spacing: 1.1px;
+}
+
+.App .title {
+  font-size: 17px;
+  position: relative;
+  top: -36px;
+  margin-left: 63px;
+}
+
+.App .pink {
+color: var(--pink);
+}
+
+.App .green {
+  color: var(--green);
+}
+
+.App .purple {
+  color: var(--purple);
+  }
+
+  .App .blue {
+    color: var(--light-blue);
+  }
+
+  .App .comment {
+    color: var(--comment-color);
+  }
+
+  .name {
+    display: inline;
+    font-size: 46px;
+    position: relative;
+    top: -16px;
+  }
+
 .App {
+  font-family: monospace;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: var(--background);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--light-color)
 }
 
 .App-link {
-  color: #61dafb;
+  color: var()
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App h3 {
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+.App .tech {
+  background-color: var(--current-color);
+  width: 100%; 
+  padding: 50px;
+}
+
+.App .icons {
+  margin: 0 25px;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Typewriter__cursor {
+  display: none;
+}
+
+.Typewriter {
+  display: inline;
+}
+
+.Typewriter_wrapper {
+  display: inline;
 }
