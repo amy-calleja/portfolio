@@ -47,8 +47,8 @@ const typerJob =
                     <FontAwesomeIcon icon={faHtml5} className="icons" />
                     <FontAwesomeIcon icon={faCss3Alt} className="icons" />
                     <FontAwesomeIcon icon={faGithub} className="icons" />
-                    
-                    <FontAwesomeIcon icon={faNpm} className="icons" /><FontAwesomeIcon icon={faBootstrap} className="icons" />
+                    <FontAwesomeIcon icon={faBootstrap} className="icons" />
+                    <FontAwesomeIcon icon={faNpm} className="icons" />
                 </span>
             </div>
      
