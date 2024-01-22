@@ -26,7 +26,7 @@ const typerJob =
 
     return(
     <>
-    <Row className="my-5">
+    <Row style={{padding: '190px 0'}}>
         <Col>
         <div className="hero mb-5 mt-4">
          <span className='pink'>function <span className="green"> Welcome</span> () {'{'}</span>
@@ -40,21 +40,7 @@ const typerJob =
                <div className="pink" >{' }'}</div>
         </div>  
         </Col>
-    </Row>
-            <div className="tech my-5">
-                 <div className="icons hide">React.js</div>
-                <span className="">
-                 
-                       <Icons name={faReact} />
-                       <Icons name={faSquareJs} />
-                    <FontAwesomeIcon icon={faHtml5} className="icons" />
-                    <FontAwesomeIcon icon={faCss3Alt} className="icons" />
-                    <FontAwesomeIcon icon={faGithub} className="icons" />
-                    <FontAwesomeIcon icon={faBootstrap} className="icons" />
-                    <FontAwesomeIcon icon={faNpm} className="icons" />
-                </span> 
-                <div></div>
-            </div>
+    </Row>         
      
     </>
     );

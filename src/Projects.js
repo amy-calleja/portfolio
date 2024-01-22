@@ -10,10 +10,10 @@ import DictionaryApp from './dictionaryApp.jpg';
 export default function Projects() {
     return (
        <div className="Projects p-5" id='projects'>
-       <div style={{fontStyle: 'italic'}}  className="titles blue mb-4">{'<'}Projects {'/>'}</div>
+       <div style={{fontStyle: 'italic'}}  className="titles blue">{'<'}Projects {'/>'}</div>
       <div style={{maxWidth: '850px'}}> 
 
-      <Row className="my-4 py-3 mt-5">
+      <Row className="mb-2 py-3">
         <div><h3>{'{'} Dictionary Search App - React.js {'}'}</h3></div>
         <Col><Image rounded src={DictionaryApp} style={{maxWidth: '380px', marginBottom: 40}}></Image></Col>
         <Col style={{textAlign: 'start'}}>
@@ -25,7 +25,7 @@ export default function Projects() {
         </Col>       
        </Row>
 
-       <Row className="my-4 py-3 mt-5">
+       <Row className="mb-2 py-3">
         <div><h3>{'{'} Desktop Weather App - React.js {'}'}</h3></div>
         <Col style={{textAlign: 'end'}}>
             <p>A desktop Weather Application written in React.js with extensive API usage and npm package integration.
@@ -37,7 +37,7 @@ export default function Projects() {
         <Col><Image rounded src={WeatherApp} style={{maxHeight: '630px'}}></Image></Col>   
        </Row>
 
-       <Row className="my-4 py-3 mt-5">
+       <Row className="mb-2 py-3">
         <div><h3>{'{'} Desktop Weather App - Vanilla JS {'}'}</h3></div>
         <Col><Image rounded src={WeatherProjJs} style={{maxWidth: '380px', marginBottom: 40}}></Image></Col>
         <Col style={{textAlign: 'start'}}>

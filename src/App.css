@@ -94,15 +94,11 @@ color: var(--pink);
   font-size: 18px;
 }
 
-.App .tech {
-  background-color: var(--current-color);
-  width: 100%; 
-  padding: 50px;
-}
+
 
 .App .icons {
   margin: 0 25px;
-  font-size: 40px;
+  font-size: 33px;
   padding-top: 30px;
   padding-bottom: 30px;
 }

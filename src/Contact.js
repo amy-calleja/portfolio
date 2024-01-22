@@ -18,8 +18,8 @@ export default function Contact() {
           <Card.Link target='_blank' href="https://www.linkedin.com/in/amycalleja/"><FontAwesomeIcon icon={faLinkedin} className="icons contact blue " /></Card.Link>
           <Card.Link target='_blank' href="mailto:amy.calleja@live.com"><FontAwesomeIcon icon={faEnvelope} className="icons contact pink" /></Card.Link>
           <Card.Link target='_blank' href="https://github.com/amy-calleja"><FontAwesomeIcon icon={faGithub} className="icons contact yellow" /></Card.Link>
-       <CardSubtitle className='comment' style={{fontStyle: 'italic'}}>This portfolio design was inspired by my first used color-coding theme <span><a className='purple' target='_blank' href='https://draculatheme.com/'>Dracular</a></span></CardSubtitle>
-       <CardSubtitle className='comment' style={{fontStyle: 'italic'}}>Opensource code written by Amy Calleja, available on <span><a className='pink' target='_blank' href=''>Github</a></span></CardSubtitle>
+       <CardSubtitle className='comment m-1' style={{fontStyle: 'italic'}}>This portfolio design was inspired by my first used color-coding theme <span><a className='purple' target='_blank' href='https://draculatheme.com/'>Dracular</a></span></CardSubtitle>
+       <CardSubtitle className='comment' style={{fontStyle: 'italic'}}>Opensource code written by Amy Calleja, available on <span><a className='pink' target='_blank' href='https://github.com/amy-calleja/portfolio'>Github</a></span></CardSubtitle>
        </Card.Body>
       </Card>
      
