@@ -1,0 +1,13 @@
+.App .Contact {
+  flex: 0;
+   width: 100%;
+}
+
+.Contact a {
+    text-decoration: none;
+}
+
+.Contact .icons {
+    font-size: 34px;
+    margin: 0 5px;
+}

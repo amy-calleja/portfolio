@@ -12,6 +12,10 @@
   --red: #ff5555;
 }
 
+p {
+  font-size: 17px;
+}
+
 .App .hero {
   text-align: start;
   font-size: 19px;
@@ -29,8 +33,17 @@
   margin-left: 63px;
 }
 
+.App .highlighted {
+  font-weight: 600;
+  font-style: italic;
+}
+
 .App .pink {
 color: var(--pink);
+}
+
+.App .yellow {
+  color: var(--yellow);
 }
 
 .App .green {
@@ -94,6 +107,51 @@ color: var(--pink);
   padding-bottom: 30px;
 }
 
+
+
+.Projects a:hover {
+  color: var(--purple);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.Projects Button:hover  {
+  background-color: var(--yellow);
+  color: var(--background);
+  border: solid transparent 1px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.Projects Button{
+  background-color: var(--background);
+  color: var(--yellow);
+  border: solid var(--yellow) 1px;
+}
+
+.App .Projects h3 {
+  font-size: 18px;
+  margin: 25px 0;
+  padding: 35px 0;
+  color: var(--yellow);
+}
+
+.icons:hover {
+  color: var(--purple);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+
+.hide {
+  display: none;
+}
+
+.icons:hover + .hide {
+  display: block;
+  color: var(--comment-color)
+}
+
 .Typewriter__cursor {
   display: none;
 }
@@ -105,3 +163,4 @@ color: var(--pink);
 .Typewriter_wrapper {
   display: inline;
 }
+
