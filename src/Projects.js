@@ -9,8 +9,8 @@ import DictionaryApp from './dictionaryApp.jpg';
 
 export default function Projects() {
     return (
-       <div className="Projects p-5" id='projects'>
-       <div style={{fontStyle: 'italic'}}  className="titles">{'<'}<span className="blue">Projects </span>{'/>'}</div>
+       <div className="Projects p-5 mx-3" id='projects'>
+       <div style={{fontStyle: 'italic', fontSize: '28px'}}  className="titles">{'<'}<span className="blue">Projects </span>{'/>'}</div>
         <div style={{maxWidth: '850px'}}> 
         <p className="m-4 px-2">A few examples of some personal projects, you may find more examples and repositories on my <a className='pink' target='_blank' href='https://github.com/amy-calleja/portfolio'>Github page</a>}.</p>
      

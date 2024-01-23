@@ -42,7 +42,7 @@ const typerJob =
        
         </Col> 
     </Row>         
-     <a href="#contact"><Button className="contactButton">Let's Chat() => </Button>  </a>
+     <a href="#contact"><Button className="contactButton mb-5">Let's Chat() => </Button>  </a>
     </>
     );
 }

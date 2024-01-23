@@ -7,7 +7,7 @@ import Icons from "./Icons"
 
 export default function() {
     return(
-        <div id='about' className="About mt-5">
+        <div id='about' className="About mt-5 mb-5">
         <Row className="m-4 px-5">
         <div className="m-3" >
             <div className="titles mb-4">{'<'}<span className="blue">About Me </span>{'/>'}</div>
