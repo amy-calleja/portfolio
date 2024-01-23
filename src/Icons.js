@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faSquareJs, faHtml5, faCss3Alt, faGitAlt, faGithub, faBootstrap, faNpm } from '@fortawesome/free-brands-svg-icons'
-
+import { faReact, faSquareJs, faHtml5, faCss3Alt, faGithub, faBootstrap, faNpm } from '@fortawesome/free-brands-svg-icons'
 
 export default function Icons() {
     return(

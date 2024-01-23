@@ -1,12 +1,8 @@
 import React from "react";
-import { Button, Col, Container, Row, } from "react-bootstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faSquareJs, faHtml5, faCss3Alt, faGitAlt, faGithub, faBootstrap, faNpm } from '@fortawesome/free-brands-svg-icons'
+import { Button, Col, Row, } from "react-bootstrap";
 import Typewriter from 'typewriter-effect';
-import Icons from "./Icons";
 
 export default function Hero(){
-
 const typerName = 
 <Typewriter
   onInit={(typewriter) => {
@@ -39,7 +35,6 @@ const typerJob =
                    <div className='ms-3'><span className="blue">{')'}</span>;</div>
                <div className="pink" >{' }'}</div>
         </div> 
-       
         </Col> 
     </Row>         
      <a href="#contact"><Button className="contactButton mb-5">Let's Chat() => </Button>  </a>

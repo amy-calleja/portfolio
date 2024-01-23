@@ -1,11 +1,8 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import './About.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faSquareJs, faHtml5, faCss3Alt, faGitAlt, faGithub, faBootstrap, faNpm } from '@fortawesome/free-brands-svg-icons'
-import Typewriter from 'typewriter-effect';
 import Icons from "./Icons"
 
-export default function() {
+export default function About() {
     return(
         <div id='about' className="About mt-5 mb-5">
         <Row className="m-4 px-5">
