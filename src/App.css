@@ -54,6 +54,10 @@ color: var(--pink);
   color: var(--purple);
   }
 
+  .App .light {
+    color: var(--light-color);
+  }
+
   .App .blue {
     color: var(--light-blue);
   }
@@ -89,21 +93,12 @@ color: var(--pink);
   color: var()
 }
 
-.App h3 {
-  color: var(--secondary-color);
-  font-size: 18px;
-}
-
-
-
 .App .icons {
-  margin: 0 25px;
-  font-size: 33px;
-  padding-top: 30px;
+  margin: 5px 19px;
+  font-size: 35px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
-
-
 
 .Projects a:hover {
   color: var(--purple);
@@ -111,7 +106,11 @@ color: var(--pink);
   cursor: pointer;
 }
 
-.Projects Button:hover  {
+.App a{
+  text-decoration: none;
+}
+
+.App Button:hover  {
   background-color: var(--yellow);
   color: var(--background);
   border: solid transparent 1px;
@@ -119,17 +118,23 @@ color: var(--pink);
   cursor: pointer;
 }
 
-.Projects Button{
+ .App Button{
   background-color: var(--background);
   color: var(--yellow);
   border: solid var(--yellow) 1px;
 }
 
+.App .contactButton {
+  padding: 12px 28px;
+  margin-bottom: 45px;
+}
+
 .App .Projects h3 {
-  font-size: 18px;
-  margin: 25px 0;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0;
   padding: 35px 0;
-  color: var(--yellow);
+  color: var(--light-color);
 }
 
 .icons:hover {

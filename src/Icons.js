@@ -4,8 +4,9 @@ import { faReact, faSquareJs, faHtml5, faCss3Alt, faGitAlt, faGithub, faBootstra
 
 export default function Icons() {
     return(
-        <div className="tech mb-5 mx-4">
-       <span className="">
+    <div className="tech m-5 mx-3">
+    <div className='comment'>// My Stack </div>
+       <span>
           <FontAwesomeIcon icon={faReact} className="icons" />
           <FontAwesomeIcon icon={faSquareJs} className="icons" />
            <FontAwesomeIcon icon={faHtml5} className="icons" />

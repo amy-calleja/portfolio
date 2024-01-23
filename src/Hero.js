@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row, } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faSquareJs, faHtml5, faCss3Alt, faGitAlt, faGithub, faBootstrap, faNpm } from '@fortawesome/free-brands-svg-icons'
 import Typewriter from 'typewriter-effect';
@@ -26,7 +26,7 @@ const typerJob =
 
     return(
     <>
-    <Row style={{padding: '190px 0'}}>
+    <Row style={{padding: '175px 0'}}>
         <Col>
         <div className="hero mb-5 mt-4">
          <span className='pink'>function <span className="green"> Welcome</span> () {'{'}</span>
@@ -38,10 +38,11 @@ const typerJob =
                    <div className='ms-4'> {'</'}<span className="pink">div</span>{'>'}</div>
                    <div className='ms-3'><span className="blue">{')'}</span>;</div>
                <div className="pink" >{' }'}</div>
-        </div>  
-        </Col>
+        </div> 
+       
+        </Col> 
     </Row>         
-     
+     <a href="#contact"><Button className="contactButton">Let's Chat() => </Button>  </a>
     </>
     );
 }
