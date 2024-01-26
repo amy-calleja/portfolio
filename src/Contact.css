@@ -1,6 +1,7 @@
 .App .Contact {
-  flex: 0;
-   width: 100%;
+width: 100%;
+max-width: auto;
+
 }
 
 .Contact a {
