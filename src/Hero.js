@@ -22,7 +22,7 @@ const typerJob =
 
     return(
     <Container className="mb-5">
-    <Row  style={{padding: '100px 0 210px 0'}} >
+    <Row  style={{padding: '80px 0 190px 0'}} >
         <Col className="d-flex justify-content-center">
         <div className="hero mb-5 mt-4 text-start">
          <span className='pink'>function <span className="green"> Welcome</span> () {'{'}</span>
