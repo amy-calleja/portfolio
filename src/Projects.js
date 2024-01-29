@@ -22,8 +22,8 @@ export default function Projects() {
             <p>A Dictionary Search Application built in React.js utilising API capabilities and concisely structured components.
                 <div className="mt-3 mb-5">This app is specifically built using a responsive user interface with the help of the Bootstrap framework.</div>
                 </p>
-            <a target='_blank' href="https://react-weather-app922.netlify.app/" rel="noreferrer"><Button> View Project()</Button></a>
-            <p className="comment my-3"><a href="https://github.com/amy-calleja/react-weather-app" target='_blank' rel="noreferrer" className="comment">// View Repository <FontAwesomeIcon icon={faGithub} className="icons git contact m-0 p-0" style={{fontSize: '25px'}}/></a></p>
+            <a target='_blank' href="https://react-dictionary-app123.netlify.app/" rel="noreferrer"><Button> View Project()</Button></a>
+            <p className="comment my-3"><a href="https://github.com/amy-calleja/react-dictionary-app" target='_blank' rel="noreferrer" className="comment">// View Repository <FontAwesomeIcon icon={faGithub} className="icons git contact m-0 p-0" style={{fontSize: '25px'}}/></a></p>
         </Col>       
        </Row>
 
