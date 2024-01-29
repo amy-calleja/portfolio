@@ -14,16 +14,21 @@
 
 @media (max-width: 576px) { 
   .App .name {
-    font-size: 30px;
+    font-size: 28px;
   }
   .App .footer {
     font-size: 13px;
   }
 
+  .App .hero {
+    margin: 0;
+    padding: 0;
+  }
+
   .App .hero .title {
-    font-size: 13px;
-    top: -33px;
-    margin-left: 32px;
+    font-size: 12px;
+    top: -28px;
+    margin-left: 35px;
   }
   .App .hero .title-name {
     font-size: 48px;
