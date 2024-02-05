@@ -161,7 +161,6 @@ color: var(--pink);
 }
 
 .icons:hover {
-  color: var(--purple);
   transition: 0.4s;
   cursor: pointer;
 }
