@@ -4,12 +4,23 @@ import './Projects.css'
 import WeatherProjJs from './weatherProjJs1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faCircleChevronUp } from "@fortawesome/free-solid-svg-icons";
 import WeatherApp from './weatherApp.jpg';
 import DictionaryApp from './dictionaryApp.jpg';
+import { useState } from "react";
 
 export default function Projects() {
+
+    const scrollButtonTop = <a className="btn" id="backButton" href="#"><FontAwesomeIcon icon={faCircleChevronUp} size="2xl" /></a>
+
+    function handleScrollDown (e) {
+    console.log('scroll')
+    }
+
+
     return (
-    <Container className="my-5">
+    <Container className="my-5" onScroll={(e)=>handleScrollDown(e)}>
+           <div className="fixed-bottom m-5" >{scrollButtonTop}</div>
     <div className="Projects" id='projects'>
         <Stack className="col-md-8 mx-auto">
       <div style={{fontStyle: 'italic', fontSize: '28px'}}  className="titles mb-4">{'<'}<span className="blue">Projects </span>{'/>'}</div>
@@ -26,7 +37,6 @@ export default function Projects() {
             <p className="comment my-3"><a href="https://github.com/amy-calleja/react-dictionary-app" target='_blank' rel="noreferrer" className="comment">// View Repository <FontAwesomeIcon icon={faGithub} className="icons git contact m-0 p-0" style={{fontSize: '25px'}}/></a></p>
         </Col>       
        </Row>
-
        <Row className="my-5">
        <Col xs={12}><h3><span className="pink">{'{'}</span> Desktop Weather App - React.js <span className="pink">{'}'}</span></h3></Col>
 {/* display on xs and sm screens only */}

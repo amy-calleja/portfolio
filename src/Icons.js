@@ -62,8 +62,8 @@ const icons = [
        <span>
        { icons.map((icon) => {
         return(
-            <span>
-            <FontAwesomeIcon onMouseOver={()=>setHover(icon.key)} onMouseOut={()=>setHover(null)} style={hover === icon.key? {color: dracularColor} : null}  icon={icon.icon} className="icons" title={icon.title}/>
+            <span key={icon.key}>
+            <FontAwesomeIcon  onMouseOver={()=>setHover(icon.key)} onMouseOut={()=>setHover(null)} style={hover === icon.key? {color: dracularColor} : null}  icon={icon.icon} className="icons" title={icon.title}/>
             </span>); }
        )} 
        </span> 

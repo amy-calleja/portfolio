@@ -17,7 +17,7 @@
     font-size: 28px;
   }
   .App .footer {
-    font-size: 13px;
+    font-size: 10.5px;
   }
 
   .App .hero {
@@ -36,6 +36,10 @@
   .Projects .switch {
     text-align: start;
   }
+
+  .App .navbar {
+    font-size: 12px;
+   }
 
 }
 
@@ -187,3 +191,21 @@ color: var(--pink);
   display: inline;
 }
 
+.App #backButton {
+  position:absolute;
+  bottom:5px;
+  right:5px;
+  margin:0;
+  padding:5px 3px;
+  color: #44475a79;
+  font-size: xx-large;
+}
+
+
+#backButton:hover{
+  color: var(--current-color);
+  transition: 0.5s;
+}
+#backButton:active{
+ color: var(--current-color);
+}

@@ -9,7 +9,7 @@ export default function Contact() {
     return (
         <div className='Contact'>
        
-        <Card id='contact' className='pt-5'>
+        <Card id='contact' className='pt-5' border="dark" style={{backgroundColor: '#2A2E32'}}>
         <Card.Body>
           <Card.Title style={{fontSize: '17px'}}>Interested to know more?
             <div className='mt-2'><span className='green'>Let's Chat<span className='pink'>{'()'} </span></span>=>
