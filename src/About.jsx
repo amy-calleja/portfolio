@@ -16,7 +16,7 @@ export default function About() {
             As a <span className="pink">Front End Developer</span>, I focus on{" "}
             <span className="blue highlighted">React.js</span> and{" "}
             <span className="yellow  highlighted">JavaScript</span> to create
-            dynamic and user-friendly web applications. With 2+ years of
+            dynamic and user-friendly web applications. With 3+ years of
             experience, I enjoy applying my skills and creativity to solve
             complex problems and deliver high-quality solutions ✨
           </div>

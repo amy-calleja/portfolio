@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 import { icon } from "@fortawesome/fontawesome-svg-core";
+import { faAtom, faGhost } from "@fortawesome/free-solid-svg-icons";
 
 export default function Icons() {
   const [hover, setHover] = useState(false);
@@ -49,16 +50,26 @@ export default function Icons() {
     },
     {
       key: "4",
+      icon: faGhost,
+      title: "Jotai (state management)",
+    },
+    {
+      key: "5",
+      icon: faAtom,
+      title: "React Query (with Jotai)",
+    },
+    {
+      key: "6",
       icon: faGithub,
       title: "Git / GitHub",
     },
     {
-      key: "5",
+      key: "7",
       icon: faBootstrap,
       title: "Bootstrap",
     },
     {
-      key: "6",
+      key: "8",
       icon: faNpm,
       title: "NPM and API",
     },
